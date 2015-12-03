@@ -17,4 +17,5 @@
 - (void) userRegisterationSuccess:(NSString *)successMessage;
 - (void) userRegisterationFailed:(NSString *)failureMessage;
 
+
 @end

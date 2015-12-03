@@ -112,7 +112,12 @@
 {
     if ([self isEmptyString:pass]) {
         return @"Password is empty";
-    } else {
+    }
+    else if ([pass length] < 8) {
+        return @"Password is not of 8 Characters";
+    }
+    else
+    {
         return @"";
     }
 }

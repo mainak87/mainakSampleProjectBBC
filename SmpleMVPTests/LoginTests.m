@@ -124,6 +124,18 @@
     XCTAssertTrue([fakeViewController.message isEqualToString:@"Password is empty"]);
 }
 
+-(void)testForPasswordMinimumOfEightChars{
+    
+    FakeLoginViewController *fakeViewController = [[FakeLoginViewController alloc] init];
+    
+    
+    id<LoginViewDelegate> presenter = [[LoginViewPresenter alloc] initWithRepository:nil andLoginView:fakeViewController];
+    
+    [presenter registerAccountUserName:@"user1" andPassword:@"Mainak"];
+    
+    XCTAssertTrue([fakeViewController.message isEqualToString:@"Password is not of 8 Characters"]);
+}
+
 - (void)testRegisterUser
 {
     FakeLoginViewController *fakeViewController = [[FakeLoginViewController alloc] init];
