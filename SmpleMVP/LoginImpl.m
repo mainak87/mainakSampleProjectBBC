@@ -15,6 +15,7 @@
     if (self = [super init]) {
         self.users = users;
         self.loginPresenter = loginPresenter;
+        // initial commit
     }
     
     return self;
