@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2934BF261C0C57E900CC50D6 /* stub.json in Resources */ = {isa = PBXBuildFile; fileRef = 2934BF251C0C57E900CC50D6 /* stub.json */; };
 		2934BF291C0C5DBA00CC50D6 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 2934BF281C0C5DBA00CC50D6 /* News.m */; };
+		299640501C116538008F22E2 /* stub.json in Resources */ = {isa = PBXBuildFile; fileRef = 2996404F1C116538008F22E2 /* stub.json */; };
 		352317D61BA99AE8008D7A34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 352317D51BA99AE8008D7A34 /* main.m */; };
 		352317D91BA99AE8008D7A34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 352317D81BA99AE8008D7A34 /* AppDelegate.m */; };
 		352317DC1BA99AE8008D7A34 /* SmpleMVP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 352317DA1BA99AE8008D7A34 /* SmpleMVP.xcdatamodeld */; };
@@ -41,9 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2934BF251C0C57E900CC50D6 /* stub.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = stub.json; path = ../../../Documents/stub.json; sourceTree = "<group>"; };
 		2934BF271C0C5DBA00CC50D6 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
 		2934BF281C0C5DBA00CC50D6 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		2996404F1C116538008F22E2 /* stub.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stub.json; sourceTree = "<group>"; };
 		352317D01BA99AE8008D7A34 /* SmpleMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmpleMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		352317D41BA99AE8008D7A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		352317D51BA99AE8008D7A34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -107,6 +107,7 @@
 		352317C71BA99AE8008D7A34 = {
 			isa = PBXGroup;
 			children = (
+				2996404F1C116538008F22E2 /* stub.json */,
 				352317D21BA99AE8008D7A34 /* SmpleMVP */,
 				352317EF1BA99AE8008D7A34 /* SmpleMVPTests */,
 			);
@@ -272,7 +273,6 @@
 		35DDC42A1BAE213000CA4BC9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2934BF251C0C57E900CC50D6 /* stub.json */,
 				35DDC42E1BAE217500CA4BC9 /* ListSample.plist */,
 			);
 			name = Resources;
@@ -378,7 +378,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2934BF261C0C57E900CC50D6 /* stub.json in Resources */,
+				299640501C116538008F22E2 /* stub.json in Resources */,
 				35DDC42F1BAE217500CA4BC9 /* ListSample.plist in Resources */,
 				352317E21BA99AE8008D7A34 /* Main.storyboard in Resources */,
 				352317E71BA99AE8008D7A34 /* LaunchScreen.xib in Resources */,
