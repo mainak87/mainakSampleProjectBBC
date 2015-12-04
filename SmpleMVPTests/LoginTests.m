@@ -124,6 +124,15 @@
     XCTAssertTrue([fakeViewController.message isEqualToString:@"Password is empty"]);
 }
 
+-(void)testForUserNameHavingMoreThanFourCharacters{
+    
+    FakeLoginViewController *fakeViewController=[[FakeLoginViewController alloc]init];
+    id<LoginViewDelegate> presenter=[[LoginViewPresenter alloc]initWithRepository:nil andLoginView:fakeViewController];
+    [presenter registerAccountUserName:@"user2" andPassword:@"Pramita"];
+    XCTAssertTrue([fakeViewController.message isEqualToString:@"User Name fonsists of more than 4 characters"]);
+
+}
+
 -(void)testForPasswordMinimumOfEightChars{
     
     FakeLoginViewController *fakeViewController = [[FakeLoginViewController alloc] init];
