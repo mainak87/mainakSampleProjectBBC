@@ -103,7 +103,11 @@
 {
     if ([self isEmptyString:name]) {
         return @"UserName is empty";
-    } else {
+    }
+    else if ([name length] >4) {
+        return @"User Name consists of more than 4 characters";
+    }
+    else {
         return @"";
     }
 }

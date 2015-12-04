@@ -129,7 +129,7 @@
     FakeLoginViewController *fakeViewController=[[FakeLoginViewController alloc]init];
     id<LoginViewDelegate> presenter=[[LoginViewPresenter alloc]initWithRepository:nil andLoginView:fakeViewController];
     [presenter registerAccountUserName:@"user2" andPassword:@"Pramita"];
-    XCTAssertTrue([fakeViewController.message isEqualToString:@"User Name fonsists of more than 4 characters"]);
+    XCTAssertTrue([fakeViewController.message isEqualToString:@"User Name consists of more than 4 characters"]);
 
 }
 
